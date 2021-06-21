@@ -1,0 +1,7 @@
+body {
+    background: black;
+}
+
+.rounded mx-auto d-block {
+    padding-top: 10%;
+}
