@@ -36,29 +36,59 @@
 <br>
 
 <h1 class="mt-4 text-center">Perfil</h1>
-<img src="./fundo.png" class="rounded rounded-circle r mx-auto d-block "  alt="Imagem responsiva" style= "max-width: 10%;  border: 1px solid write"  >
-<br>
+
+  
+  <img src="./fundo.png" class="rounded rounded-circle r mx-auto d-block "  alt="Imagem responsiva" style= "max-width: 10%;  border: 1px solid write"  >
+  <br>
+
 <div class="container-fluid"
 
 
-  <div class="card" style="width: 18rem;">
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item text-info text-center ">Nome: Buuu</li>
-      <li class="list-group-item text-info text-center">Nick: @BuuuMoura</li>
-      <li class="list-group-item text-info text-center">Idade: 23 anos</li>
-      <li class="list-group-item text-info text-center">Peso: 63.00 kg</li>
-      <li class="list-group-item text-info text-center">Altura: 1.55</li>
-      <li class="list-group-item text-info text-center">Genero: Feminino</li>
-    </ul>
-    <div class="card-footer">
-    <div class="d-grid gap-2">
-      <button type="google" class="btn btn-primary btn-lg"><a class="text-center text-white" href="./editandoPerfil.html">Editar</button>
+    <div class="input-group">
+    <p>Imagem de perfil </p>
+      <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+     
     </div>
+    <br>
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Nome</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Como quer ser chamada (o)">
     </div>
-    </div>
-  </div>
-<br>
 
+    <div class="mb-3">
+      <label for="formGroupExampleInput" class="form-label">Data de nascimento</label>
+      <input type="date" class="form-control" id="formGroupExampleInput" placeholder="Data de nascimento">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Peso</label>
+      <input type="number" class="form-control" id="formGroupExampleInput2" placeholder="56,0">
+    </div>
+    <div class="mb-3">
+      <label for="formGroupExampleInput2" class="form-label">Altura</label>
+      <input type="number" class="form-control" id="formGroupExampleInput3" placeholder="1.55">
+    </div>
+
+
+   <div class="form-floating">
+   <p> Genero </p>
+  <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+    <option selected>Feminino</option>
+    <option value="1">Masculino</option>
+    <option value="2">Outros</option>
+    <option value="3">Prefiro não responder</option>
+  </select>
+  
+</div>
+<br>
+   
+
+<div class="d-grid gap-2">
+    <button type="button" class="btn btn-primary btn-lg"><a class="text-center text-white" href="./perfil.html">Salvar</button>
+</div>
+</div>
+  
+
+<br>
 
 
 
